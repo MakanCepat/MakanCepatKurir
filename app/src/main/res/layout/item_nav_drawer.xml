@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_expandable_list_item"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/icon_list_drawer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_menu_gallery" />
+
+    <TextView
+        android:id="@+id/labelListDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:duplicateParentState="true"
+        android:paddingLeft="8dp"
+        android:text="List"
+        android:textColor="@drawable/selector_textview_navigation_drawer"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgExpandList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_expand"
+        android:visibility="gone" />
+</LinearLayout>

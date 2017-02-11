@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#FF8A80</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#df5b5b</color>
+    <color name="colorAccent">#FF8A80</color>
+    <color name="white">#ffffff</color>
+    <color name="primary_text_tab">#202020</color>
+    <color name="borderline_tab_background">#FCB43E</color>
+    <color name="list_text_color">#1E1B1C</color>
+    <color name="color_background">#EBEBEB</color>
+    <color name="line_color">#C1C1C1</color>
+    <color name="selected_item_bg_navdrawer">#F3F3F3</color>
+    <color name="bg_color">#f5f0eb</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="text_hint">#cacaca</color>
+    <color name="bg_color_dark">#455A64</color>
+</resources>

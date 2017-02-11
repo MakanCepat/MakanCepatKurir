@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:id="@+id/imgLogoLogin"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_makancepat" />
+
+    <ImageView
+        android:id="@+id/imgHeaderLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:padding="12dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#7e232323"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtHeaderLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Tai"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/txtSubHeaderLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ini Bukan Tai"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#fff" />
+    </LinearLayout>
+</LinearLayout>

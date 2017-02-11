@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuHomeSearch"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="Search">
+    </item>
+    <item
+        android:id="@+id/menuHomeCart"
+        android:icon="@drawable/ic_shopping_cart_white_36dp"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="Shopping Cart">
+    </item>
+</menu>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "733429795910",
+    "firebase_url": "https://makancepatkurir.firebaseio.com",
+    "project_id": "makancepatkurir",
+    "storage_bucket": "makancepatkurir.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733429795910:android:387bcc6fec82634d",
+        "android_client_info": {
+          "package_name": "gonorus.makancepatkurir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733429795910-oge4srabb89ilaq7ano9e6e8rlki41q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt3X9DvXBIEjeLGU3Joz1et4oz3N63_N4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

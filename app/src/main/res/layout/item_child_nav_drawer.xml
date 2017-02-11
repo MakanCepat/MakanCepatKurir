@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:paddingBottom="6dp"
+        android:paddingTop="6dp"
+        android:id="@+id/labelListChildDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:text="List" />
+</LinearLayout>
