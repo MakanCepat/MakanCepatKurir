@@ -1,5 +1,6 @@
 package gonorus.makancepatkurir.view;
 
+import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,6 +15,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListView;
@@ -55,7 +57,8 @@ public class ActivityHome extends AppCompatActivity {
     CircleImageView profileImage;
     boolean menuClickedOrNot = false;
     SessionManager sessionManager;
-    private int temp;
+    public int temp;
+    private Intent intentTransaksi = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,7 +72,8 @@ public class ActivityHome extends AppCompatActivity {
         notificationIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selectItem(3);
+                if (temp != 3)
+                    selectItem(3);
             }
         });
 
@@ -85,7 +89,6 @@ public class ActivityHome extends AppCompatActivity {
         navigationView = (NavigationView) findViewById(R.id.nav_view);
 
         prepareListData();
-        selectItem(0);
 
         listAdapter = new ItemDrawerAdapter(this, listDataHeader, listDataChild);
         expListView.setAdapter(listAdapter);
@@ -141,7 +144,7 @@ public class ActivityHome extends AppCompatActivity {
             }
         });
 
-        sessionManager = new SessionManager(getApplicationContext());
+        sessionManager = new SessionManager(this);
         TextView txtUsername = (TextView) headerview.findViewById(R.id.nav_header_txt_username);
         txtUsername.setText(sessionManager.getKurirDetails().get(SessionManager.KEY_NAME));
         try {
@@ -151,8 +154,16 @@ public class ActivityHome extends AppCompatActivity {
             // Null Pointer Exception did not find any picture
         }
 
-        //FirebaseMessaging.getInstance().subscribeToTopic("MakanCepatKurir");
-        //FirebaseInstanceId.getInstance().getToken();
+        intentTransaksi = new Intent(this, ActivityTransaction.class);
+        intentTransaksi.putExtra("IDTransaksi", sessionManager.getKurirDetails().get(SessionManager.KEY_ID_TRANSAKSI));
+
+        try {
+            Log.d("MAKANCEPAT", "temp = " + getIntent().getIntExtra("notifikasiAlarm", 0));
+            temp = getIntent().getIntExtra("notifikasiAlarm", 0);
+        } catch (Exception E) {
+            temp = 0;
+        }
+        selectItem(temp);
     }
 
     @Override
@@ -221,13 +232,12 @@ public class ActivityHome extends AppCompatActivity {
 
         // Adding Header data
         listDataHeader.add("Halaman Depan");
-        //listDataHeader.add("Transaksi");
-        listDataHeader.add("Log Out");
+        listDataHeader.add(1, "Transaksi");
+        listDataHeader.add(2, "Logout");
 
         // Header, Child data
-        listDataChild.put(listDataHeader.get(0), new ArrayList<String>());
-        //listDataChild.put(listDataHeader.get(1), new ArrayList<String>());
-        listDataChild.put(listDataHeader.get(1), new ArrayList<String>());
+        //listDataChild.put(listDataHeader.get(0), new ArrayList<String>());
+        //listDataChild.put(listDataHeader.get(2), new ArrayList<String>());
     }
 
     /**
@@ -243,44 +253,46 @@ public class ActivityHome extends AppCompatActivity {
         switch (position) {
             case 0:
                 fragment = new FragmentHalamanDepan();
+                fragmentTransaction
+                        .replace(R.id.content_frame, fragment)
+                        .commit();
+
+                drawer.closeDrawer(GravityCompat.START);
                 break;
-            /*
             case 1:
-                fragment = new FragmentCourierTransaction();
+                overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
+                startActivity(intentTransaksi);
+                finish();
                 break;
-                */
+            case 2:
+                showLogoutDialog();
+                break;
             case 3:
                 fragmentTransaction.setCustomAnimations(R.anim.slide_from_right, R.anim.slide_to_left);
                 fragment = new FragmentNotification();
+                fragmentTransaction
+                        .replace(R.id.content_frame, fragment)
+                        .commit();
+
+                drawer.closeDrawer(GravityCompat.START);
                 break;
             case 4:
                 fragmentTransaction.setCustomAnimations(R.anim.slide_from_left, R.anim.slide_to_right);
                 fragment = new FragmentHalamanDepan();
+                fragmentTransaction
+                        .replace(R.id.content_frame, fragment)
+                        .commit();
+
+                drawer.closeDrawer(GravityCompat.START);
                 break;
-            /*
-            case 4:
-                fragment = new DompetkuFragment();
-                break;
-            case 5:
-                fragment = new TransaksiFragment();
-                break;
-            case 6:
-                fragment = new LanggananFragment();
-                break;
-                */
             default:
                 fragment = new FragmentHalamanDepan();
+                fragmentTransaction
+                        .replace(R.id.content_frame, fragment)
+                        .commit();
+                drawer.closeDrawer(GravityCompat.START);
                 break;
         }
-
-        // Insert the fragment by replacing any existing fragment
-        fragmentTransaction
-                .replace(R.id.content_frame, fragment)
-                .commit();
-
-        if (position == 1) showLogoutDialog();
-
-        drawer.closeDrawer(GravityCompat.START);
     }
 
     public void showLogoutDialog() {
@@ -316,5 +328,20 @@ public class ActivityHome extends AppCompatActivity {
         builder.setMessage("Yakin ingin keluar?").setTitle("Konfirmasi");
         AlertDialog dialog = builder.create();
         dialog.show();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        intentTransaksi = new Intent(this, ActivityTransaction.class);
+        intentTransaksi.putExtra("IDTransaksi", sessionManager.getKurirDetails().get(SessionManager.KEY_ID_TRANSAKSI));
+
+        try {
+            Log.d("MAKANCEPAT", "temp = " + getIntent().getIntExtra("notifikasiAlarm", 0));
+            temp = getIntent().getIntExtra("notifikasiAlarm", 0);
+        } catch (Exception E) {
+            temp = 0;
+        }
+        selectItem(temp);
     }
 }

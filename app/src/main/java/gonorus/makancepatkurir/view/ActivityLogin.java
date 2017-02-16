@@ -123,6 +123,7 @@ public class ActivityLogin extends AppCompatActivity {
             public void onFailure(Call<ModelKurir> call, Throwable t) {
                 showProgress(false);
                 txtErrLogin.setText("Failed to connect the server");
+                Log.e("MAKANCEPAT", t.getMessage());
             }
         });
     }

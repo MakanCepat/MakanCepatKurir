@@ -97,4 +97,21 @@ public interface LoginInterface {
             @Field("jumlah_dibayar") String jumlah_dibayar,
             @Field("kembalian") String kembalian
     );
+
+    @FormUrlEncoded
+    @POST("kurir/changeKurirPassword")
+    Call<ModelKurir> changeKurirPassword(
+            @Field("email") String email,
+            @Field("password_lama") String password_lama,
+            @Field("password_baru") String password_baru,
+            @Field("key_validate") String key_validate
+    );
+
+    @FormUrlEncoded
+    @POST("kurir/setKurirIsWorking")
+    Call<InfoModel> setKurirIsWorking(
+            @Field("email") String email,
+            @Field("is_working") String is_working,
+            @Field("key_validate") String key_validate
+    );
 }

@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "gonorus.makancepatkurir"
-        minSdkVersion 15
+        minSdkVersion 19
         targetSdkVersion 20
         multiDexEnabled true
         versionCode 1

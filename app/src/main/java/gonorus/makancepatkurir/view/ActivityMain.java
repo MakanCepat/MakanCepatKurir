@@ -17,9 +17,12 @@ public class ActivityMain extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         sessionManager = new SessionManager(getApplicationContext());
         if(sessionManager.isLoggedIn()){
-            Intent intent = new Intent();
-            intent = new Intent(ActivityMain.this, ActivityHome.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            Intent intent = new Intent(ActivityMain.this, ActivityHome.class);
+            try {
+                intent.putExtra("notifikasiAlarm", getIntent().getIntExtra("notifikasiAlarm", 0));
+            } catch (Exception E) {
+            }
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
             startActivity(intent);
             overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
             finish();

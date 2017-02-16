@@ -45,7 +45,11 @@ public class SessionManager {
     // url foto
     public static final String KEY_FOTO = "foto";
 
-    public static final String KEY_ID_TRANSAKSI ="";
+    public static final String KEY_ID_TRANSAKSI = "-1";
+
+    public static final String KEY_IS_WORKING = "0";
+
+    public static final String KEY_SHIFT_KERJA = "-1";
 
     // Constructor
     public SessionManager(Context context) {
@@ -61,12 +65,12 @@ public class SessionManager {
         // Storing login value as TRUE
         editor.putBoolean(IS_LOGIN, true);
 
-        editor.putString(KEY_NAME, (model.getFirstName()+" "+model.getLastName()).trim());
+        editor.putString(KEY_NAME, (model.getFirstName() + " " + model.getLastName()).trim());
         editor.putString(KEY_EMAIL, model.getEmail());
         editor.putInt(KEY_ID_KURIR, model.getIdKurir());
         editor.putString(KEY_VALIDATE, model.getKey_validate());
         editor.putString(KEY_FOTO, model.getFoto());
-        editor.putString(KEY_ID_TRANSAKSI, "");
+        editor.putString(KEY_IS_WORKING, model.getIsWorking());
         // commit changes
         editor.commit();
     }
@@ -81,6 +85,9 @@ public class SessionManager {
         user.put(KEY_ID_KURIR, Integer.toString(pref.getInt(KEY_ID_KURIR, 0)));
         user.put(KEY_FOTO, pref.getString(KEY_FOTO, ""));
         user.put(KEY_VALIDATE, pref.getString(KEY_VALIDATE, null));
+        user.put(KEY_ID_TRANSAKSI, pref.getString(KEY_ID_TRANSAKSI, "-1"));
+        user.put(KEY_IS_WORKING, pref.getString(KEY_IS_WORKING, "0"));
+        user.put(KEY_SHIFT_KERJA, pref.getString(KEY_SHIFT_KERJA, "-1"));
         // return user
         return user;
     }
@@ -135,8 +142,23 @@ public class SessionManager {
         return pref.getBoolean(IS_LOGIN, false);
     }
 
-    public void changeFoto(String foto){
+    public void changeFoto(String foto) {
         editor.putString(KEY_FOTO, foto);
+        editor.commit();
+    }
+
+    public void setKeyIdTransaksi(String id_transaksi) {
+        editor.putString(KEY_ID_TRANSAKSI, id_transaksi);
+        editor.commit();
+    }
+
+    public void setKeyShiftKerja(String shift_kerja) {
+        editor.putString(KEY_SHIFT_KERJA, shift_kerja);
+        editor.commit();
+    }
+
+    public void setKeyIsWorking(String is_working) {
+        editor.putString(KEY_IS_WORKING, is_working);
         editor.commit();
     }
 }

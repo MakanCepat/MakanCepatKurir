@@ -1,5 +1,6 @@
 package gonorus.makancepatkurir.view;
 
+import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -44,6 +45,8 @@ public class ActivityTransaction extends AppCompatActivity {
     private ProgressDialog progressDialog;
     private CheckBox checkBox;
     private Button button;
+    private int IDTransaksi;
+    private int harusBayar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,7 +68,14 @@ public class ActivityTransaction extends AppCompatActivity {
             });
         }
 
-        final int IDTransaksi = getIntent().getIntExtra("IDTransaksi", -1);
+        sessionManager = new SessionManager(getApplicationContext());
+        try {
+            if (!sessionManager.getKurirDetails().get(SessionManager.KEY_ID_TRANSAKSI).trim().isEmpty()) {
+                IDTransaksi = Integer.parseInt(sessionManager.getKurirDetails().get(SessionManager.KEY_ID_TRANSAKSI));
+            }
+        } catch (NullPointerException NPE) {
+            IDTransaksi = getIntent().getIntExtra("IDTransaksi", -1);
+        }
         profileImage = (CircleImageView) findViewById(R.id.profile_image);
         namaCustomerTV = (TextView) findViewById(R.id.namaCustTV);
         notelpTV = (TextView) findViewById(R.id.noTelpCustTv);
@@ -84,10 +94,11 @@ public class ActivityTransaction extends AppCompatActivity {
         progressDialog = new ProgressDialog(ActivityTransaction.this);
 
         button = (Button) findViewById(R.id.btnRoute);
-        if (IDTransaksi >= 0) {
+        if (IDTransaksi >= 1) {
             progressDialog.setMessage("Processing...");
             progressDialog.show();
-            sessionManager = new SessionManager(getApplicationContext());
+            Log.d("MAKANCEPAT", "ID-T ACTV = " + IDTransaksi);
+            sessionManager.setKeyIdTransaksi(Integer.toString(IDTransaksi));
             LoginInterface apiService = Communicator.getClient().create(LoginInterface.class);
             Call<ModelResponseTransaction> user = apiService.getTransaksi(IDTransaksi, sessionManager.getKurirDetails().get(SessionManager.KEY_VALIDATE));
             user.enqueue(new Callback<ModelResponseTransaction>() {
@@ -107,9 +118,10 @@ public class ActivityTransaction extends AppCompatActivity {
                             progressDialog.dismiss();
                             namaCustomerTV.setText((model.getUser_first_name() + " " + model.getUser_last_name()).trim());
                             notelpTV.setText(model.getUser_email() + "/" + model.getUser_phone());
-                            hutang.setText("Total : Rp. " + model.getTransaksi_total());
+                            harusBayar = model.getTransaksi_total();
+                            hutang.setText("Total : Rp. " + harusBayar);
                             if (model.getTransaksi_is_paid() == 1)
-                                bayar.setText("Bayar :  " + model.getTransaksi_jumlah_bayar());
+                                bayar.setText("Bayar :  " + harusBayar);
                             else
                                 bayar.setText("Bayar :  Rp. 0");
                             try {
@@ -179,6 +191,12 @@ public class ActivityTransaction extends AppCompatActivity {
                 }
             });
         } else {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this, R.style.MyAlertDialogStyle);
+            builder.setCancelable(false);
+            builder.setMessage("Tidak ada transaksi saat ini");
+            builder.setTitle("Informasi");
+            builder.show();
+
             Intent intent = new Intent(this, ActivityMain.class);
             startActivity(intent);
             finish();
@@ -190,8 +208,9 @@ public class ActivityTransaction extends AppCompatActivity {
         // Add the buttons
         builder.setPositiveButton("Ya", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
+                sessionManager.setKeyIdTransaksi("-1");
                 LoginInterface apiService = Communicator.getClient().create(LoginInterface.class);
-                Call<InfoModel> user = apiService.updateTransaksiStatus(IDTransaksi, Integer.toString(IDTransaksi), Integer.toString(IDTransaksi));
+                Call<InfoModel> user = apiService.updateTransaksiStatus(IDTransaksi, Integer.toString(harusBayar), "0");
                 user.enqueue(new Callback<InfoModel>() {
                     @Override
                     public void onResponse(Call<InfoModel> call, Response<InfoModel> response) {

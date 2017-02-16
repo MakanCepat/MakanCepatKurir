@@ -214,4 +214,12 @@
     <string name="string_help_text"> The permission is missing.\n\nTo grant this permission click on Settings, then Permissions and turn the permission on.\n\nThen click back twice to return to the app</string>
     <string name="quit">Exit App</string>
     <string name="settings">Settings</string>
+
+    <!-- STRING PENGAMBILAN JADWAL KURIR -->
+    <string name="dialog_title">Pilih Jadwal</string>
+    <string-array name="jadwal_kerja">
+        <item> Pagi  (09.00 - 14.00 WIB)</item>
+        <item> Siang (14.00 - 18.00 WIB)</item>
+        <item> Malam (18.00 - 22.00 WIB)</item>
+    </string-array>
 </resources>

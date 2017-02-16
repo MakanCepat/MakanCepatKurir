@@ -1,6 +1,7 @@
 package gonorus.makancepatkurir.adapter;
 
 import android.content.Context;
+import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -80,6 +81,8 @@ public class ItemDrawerAdapter extends BaseExpandableListAdapter {
         }
         final TextView lblListHeader = (TextView) convertView.findViewById(R.id.labelListDrawer);
         ImageView img = (ImageView) convertView.findViewById(R.id.imgExpandList);
+        ImageView icon = (ImageView) convertView.findViewById(R.id.icon_list_drawer);
+        setIconDrawer(icon, posGroup);
 
         if (groupPosition == 11) {
             img.setVisibility(View.VISIBLE);
@@ -117,5 +120,22 @@ public class ItemDrawerAdapter extends BaseExpandableListAdapter {
     @Override
     public boolean isChildSelectable(int groupPosition, int childPosition) {
         return true;
+    }
+
+    private void setIconDrawer(ImageView iconDrawer, int position) {
+        int resId = 0;
+        switch (position) {
+            case 0:
+                resId = R.drawable.ic_home_black_24dp;
+                break;
+            case 1:
+                resId = R.drawable.ic_local_dining_black_24dp;
+                break;
+            case 2:
+                resId = R.drawable.ic_directions_run_black_24dp;
+                break;
+        }
+        iconDrawer.setImageResource(resId);
+
     }
 }

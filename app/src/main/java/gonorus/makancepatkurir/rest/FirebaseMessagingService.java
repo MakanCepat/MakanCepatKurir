@@ -5,10 +5,12 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Intent;
 import android.support.v4.app.NotificationCompat;
+import android.util.Log;
 
 import com.google.firebase.messaging.RemoteMessage;
 
 import gonorus.makancepatkurir.R;
+import gonorus.makancepatkurir.customutil.SessionManager;
 import gonorus.makancepatkurir.view.ActivityTransaction;
 
 import static android.support.v4.app.NotificationCompat.DEFAULT_VIBRATE;
@@ -18,6 +20,7 @@ import static android.support.v4.app.NotificationCompat.DEFAULT_VIBRATE;
  */
 
 public class FirebaseMessagingService extends com.google.firebase.messaging.FirebaseMessagingService {
+
     public void onMessageReceived(RemoteMessage remoteMessage) {
         super.onMessageReceived(remoteMessage);
         String message = remoteMessage.getNotification().getBody();
@@ -31,6 +34,14 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
         Intent intent = new Intent(this, ActivityTransaction.class);
         intent.putExtra("IDTransaksi", idTransaksi);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        Log.d("MAKANCEPAT", "ID-T = "+idTransaksi);
+        SessionManager sessionManager = new SessionManager(getApplicationContext());
+        sessionManager.setKeyIdTransaksi(Integer.toString(idTransaksi));
+        try {
+            Log.d("MAKANCEPAT", "ID-T = "+sessionManager.getKurirDetails().get(SessionManager.KEY_ID_TRANSAKSI));
+        } catch (NullPointerException NPE) {
+            Log.d("MAKANCEPAT", "NOTIF NPE");
+        }
 
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this)

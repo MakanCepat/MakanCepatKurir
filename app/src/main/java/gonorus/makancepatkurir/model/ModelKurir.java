@@ -52,7 +52,7 @@ public class ModelKurir {
     private double longitude;
 
     @SerializedName("is_working")
-    private boolean isWorking;
+    private String isWorking;
 
     @SerializedName("message")
     private String message;
@@ -185,12 +185,12 @@ public class ModelKurir {
         this.longitude = longitude;
     }
 
-    public boolean isWorking() {
+    public String getIsWorking() {
         return isWorking;
     }
 
-    public void setWorking(boolean working) {
-        isWorking = working;
+    public void setIsWorking(String isWorking) {
+        this.isWorking = isWorking;
     }
 
     public String getMessage() {
