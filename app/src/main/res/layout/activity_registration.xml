@@ -87,31 +87,6 @@
                     </android.support.design.widget.TextInputLayout>
                 </TableRow>
 
-                <!--
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="5dp">
-
-                    <android.support.design.widget.TextInputLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:background="@drawable/rounded_edittext">
-
-                        <EditText
-                            android:id="@+id/txtDaftarUsername"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:background="#00000000"
-                            android:hint="Username"
-                            android:inputType="textPersonName"
-                            android:padding="@dimen/login_tabel_margin"
-                            android:textSize="@dimen/text_size_inside_form" />
-                    </android.support.design.widget.TextInputLayout>
-                </TableRow>
-                -->
-
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -225,24 +200,6 @@
                         android:layout_weight="1"
                         android:background="@drawable/rounded_edittext">
 
-                        <Spinner
-                            android:layout_weight="1"
-                            android:id="@+id/spinnerBank"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/rounded_edittext"
-                            android:entries="@array/list_bank"
-                            android:padding="@dimen/login_tabel_margin"
-                            android:spinnerMode="dialog" />
-                    </android.support.design.widget.TextInputLayout>
-
-                    <!--
-                    <android.support.design.widget.TextInputLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:background="@drawable/rounded_edittext">
-
                         <EditText
                             android:id="@+id/txtDaftarBank"
                             android:layout_width="match_parent"
@@ -253,8 +210,18 @@
                             android:inputType="text"
                             android:padding="@dimen/login_tabel_margin"
                             android:textSize="@dimen/text_size_inside_form" />
+
+                        <Spinner
+                            android:visibility="gone"
+                            android:layout_weight="1"
+                            android:id="@+id/spinnerBank"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_edittext"
+                            android:entries="@array/list_bank"
+                            android:padding="@dimen/login_tabel_margin"
+                            android:spinnerMode="dialog" />
                     </android.support.design.widget.TextInputLayout>
-                    -->
                 </TableRow>
 
                 <TableRow
@@ -321,8 +288,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:background="#00000000"
-                            android:hint="Username Referal*"
-                            android:inputType="numberSigned"
+                            android:hint="Email Referal*"
                             android:padding="@dimen/login_tabel_margin"
                             android:textSize="@dimen/text_size_inside_form" />
                     </android.support.design.widget.TextInputLayout>

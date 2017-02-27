@@ -8,55 +8,49 @@ import com.google.gson.annotations.SerializedName;
 
 public class ModelPelanggan {
     @SerializedName("error")
-    boolean error;
+    private boolean error;
 
     @SerializedName("id_user")
-    String idUser;
+    private String idUser;
+
+    @SerializedName("id_parent")
+    private String idParent;
 
     @SerializedName("email")
-    String email;
-
-    @SerializedName("password")
-    String password;
+    private String email;
 
     @SerializedName("username")
-    String username;
+    private String username;
 
     @SerializedName("first_name")
-    String firstName;
+    private String firstName;
 
     @SerializedName("last_name")
-    String lastName;
-
-    @SerializedName("message")
-    String message;
-
-    @SerializedName("apiKey")
-    String apiKey;
-
-    @SerializedName("jabatan")
-    String jabatan;
-
-    @SerializedName("foto")
-    String foto;
+    private String lastName;
 
     @SerializedName("no_ktp")
-    String noKtp;
-
-    @SerializedName("is_validate")
-    int isValidate;
-
-    @SerializedName("no_rekening")
-    String noRekening;
-
-    @SerializedName("phone")
-    String phone;
+    private String noKtp;
 
     @SerializedName("alamat")
-    String alamat;
+    private String alamat;
 
-    @SerializedName("bank")
-    String bank;
+    @SerializedName("is_validate")
+    private int isValidate;
+
+    @SerializedName("is_active")
+    private int isActive;
+
+    @SerializedName("phone")
+    private String phone;
+
+    @SerializedName("jabatan")
+    private String jabatan;
+
+    @SerializedName("foto")
+    private String foto;
+
+    @SerializedName("message")
+    private String message;
 
     public boolean isError() {
         return error;
@@ -74,20 +68,20 @@ public class ModelPelanggan {
         this.idUser = idUser;
     }
 
+    public String getIdParent() {
+        return idParent;
+    }
+
+    public void setIdParent(String idParent) {
+        this.idParent = idParent;
+    }
+
     public String getEmail() {
         return email;
     }
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
     }
 
     public String getUsername() {
@@ -114,20 +108,44 @@ public class ModelPelanggan {
         this.lastName = lastName;
     }
 
-    public String getMessage() {
-        return message;
+    public String getNoKtp() {
+        return noKtp;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public void setNoKtp(String noKtp) {
+        this.noKtp = noKtp;
     }
 
-    public String getApiKey() {
-        return apiKey;
+    public String getAlamat() {
+        return alamat;
     }
 
-    public void setApiKey(String apiKey) {
-        this.apiKey = apiKey;
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
+
+    public int getIsValidate() {
+        return isValidate;
+    }
+
+    public void setIsValidate(int isValidate) {
+        this.isValidate = isValidate;
+    }
+
+    public int getIsActive() {
+        return isActive;
+    }
+
+    public void setIsActive(int isActive) {
+        this.isActive = isActive;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getJabatan() {
@@ -146,51 +164,11 @@ public class ModelPelanggan {
         this.foto = foto;
     }
 
-    public String getNoKtp() {
-        return noKtp;
+    public String getMessage() {
+        return message;
     }
 
-    public void setNoKtp(String noKtp) {
-        this.noKtp = noKtp;
-    }
-
-    public int getIsValidate() {
-        return isValidate;
-    }
-
-    public void setIsValidate(int isValidate) {
-        this.isValidate = isValidate;
-    }
-
-    public String getNoRekening() {
-        return noRekening;
-    }
-
-    public void setNoRekening(String noRekening) {
-        this.noRekening = noRekening;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public String getAlamat() {
-        return alamat;
-    }
-
-    public void setAlamat(String alamat) {
-        this.alamat = alamat;
-    }
-
-    public String getBank() {
-        return bank;
-    }
-
-    public void setBank(String bank) {
-        this.bank = bank;
+    public void setMessage(String message) {
+        this.message = message;
     }
 }

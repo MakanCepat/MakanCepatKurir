@@ -31,7 +31,8 @@ public interface LoginInterface {
     @FormUrlEncoded
     @POST("kurir/logout")
     Call<ModelKurir> checkLogout(
-            @Field("email") String email
+            @Field("email") String email,
+            @Field("key_validate") String key_validate
     );
 
     @FormUrlEncoded

@@ -30,6 +30,12 @@ public class ModelKurir {
     @SerializedName("key_validate")
     private String key_validate;
 
+    @SerializedName("is_validate")
+    private int is_validate;
+
+    @SerializedName("is_active")
+    private int is_active;
+
     @SerializedName("rate")
     private float rate;
 
@@ -52,7 +58,7 @@ public class ModelKurir {
     private double longitude;
 
     @SerializedName("is_working")
-    private String isWorking;
+    private int isWorking;
 
     @SerializedName("message")
     private String message;
@@ -129,6 +135,22 @@ public class ModelKurir {
         this.key_validate = key_validate;
     }
 
+    public int getIs_validate() {
+        return is_validate;
+    }
+
+    public void setIs_validate(int is_validate) {
+        this.is_validate = is_validate;
+    }
+
+    public int getIs_active() {
+        return is_active;
+    }
+
+    public void setIs_active(int is_active) {
+        this.is_active = is_active;
+    }
+
     public float getRate() {
         return rate;
     }
@@ -185,11 +207,11 @@ public class ModelKurir {
         this.longitude = longitude;
     }
 
-    public String getIsWorking() {
+    public int getIsWorking() {
         return isWorking;
     }
 
-    public void setIsWorking(String isWorking) {
+    public void setIsWorking(int isWorking) {
         this.isWorking = isWorking;
     }
 

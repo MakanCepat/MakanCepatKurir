@@ -13,7 +13,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class Communicator {
     //public static final String BASE_URL = "http://tst.cetheris.com/";
     public static final String BASE_URL = "http://192.168.1.65/mcapi/";
-//    public static final String BASE_URL = "http://www.mapc.com/";
+    //public static final String BASE_URL = "http://www.mapc.com/";
     private static Retrofit retrofit = null;
 
     public static Retrofit getClient() {

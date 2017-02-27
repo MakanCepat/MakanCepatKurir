@@ -33,7 +33,6 @@ public class FragmentMainLogin extends Fragment implements View.OnClickListener 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_main_login, container, false);
-
     }
 
     @Override
@@ -42,6 +41,14 @@ public class FragmentMainLogin extends Fragment implements View.OnClickListener 
         setUpView();
         setTab();
         onCircleButtonClick();
+    }
+
+    private void setUpView() {
+        _mViewPager = (ViewPager) getView().findViewById(R.id.imageviewPager);
+        _adapter = new ImageLoginAdapter(getActivity(), getFragmentManager());
+        _mViewPager.setAdapter(_adapter);
+        _mViewPager.setCurrentItem(0);
+        initView();
     }
 
     private void initView() {
@@ -64,6 +71,7 @@ public class FragmentMainLogin extends Fragment implements View.OnClickListener 
         imgHeader.setImageResource(R.drawable.pesan_antar);
 
         sessionManager = new SessionManager(getActivity());
+        btnDaftar.setVisibility(View.GONE);
     }
 
     private void setTab() {
@@ -85,7 +93,6 @@ public class FragmentMainLogin extends Fragment implements View.OnClickListener 
                 _btn3.setImageResource(R.drawable.holo_circle);
                 btnAction(position);
             }
-
         });
     }
 
@@ -112,14 +119,6 @@ public class FragmentMainLogin extends Fragment implements View.OnClickListener 
                 _mViewPager.setCurrentItem(2);
             }
         });
-    }
-
-    private void setUpView() {
-        _mViewPager = (ViewPager) getView().findViewById(R.id.imageviewPager);
-        _adapter = new ImageLoginAdapter(getActivity(), getFragmentManager());
-        _mViewPager.setAdapter(_adapter);
-        _mViewPager.setCurrentItem(0);
-        initView();
     }
 
     private void btnAction(int action) {
@@ -152,7 +151,6 @@ public class FragmentMainLogin extends Fragment implements View.OnClickListener 
             getActivity().finish();
             startActivity(intent);
             getActivity().overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
-            //startActivityForResult(intent, REQUEST_DAFTAR_ACTIVITY);
         }
 
         if (view == btnMasuk) {

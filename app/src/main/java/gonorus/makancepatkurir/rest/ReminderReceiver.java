@@ -7,23 +7,16 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.os.Bundle;
-import android.os.SystemClock;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
-import java.util.concurrent.TimeUnit;
 
 import gonorus.makancepatkurir.R;
 import gonorus.makancepatkurir.customutil.SessionManager;
 import gonorus.makancepatkurir.model.InfoModel;
-import gonorus.makancepatkurir.model.ModelKurir;
-import gonorus.makancepatkurir.view.ActivityHome;
-import gonorus.makancepatkurir.view.ActivityLogin;
 import gonorus.makancepatkurir.view.ActivityMain;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -45,6 +38,9 @@ public class ReminderReceiver extends BroadcastReceiver {
             sessionManager.setKeyIsWorking("1");
             Log.d("MAKANCEPAT", "Session Is Working  : " + sessionManager.getKurirDetails().get(SessionManager.KEY_IS_WORKING));
             Log.d("MAKANCEPAT", "Session Shift Kerja : " + sessionManager.getKurirDetails().get(SessionManager.KEY_SHIFT_KERJA));
+            setNotification(context, "Mengingatkan waktu kerja", ActivityMain.class, "");
+
+            /*
             Intent MainActivityIntent = new Intent(context, ActivityMain.class);
             //MainActivityIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
             PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, MainActivityIntent, PendingIntent.FLAG_UPDATE_CURRENT);
@@ -59,12 +55,13 @@ public class ReminderReceiver extends BroadcastReceiver {
                     .setContentIntent(pendingIntent)
                     .setPriority(Notification.PRIORITY_MAX);
             manager.notify(1000, builder.build());
+            *///
 
             AlarmManager alarmMgr = (AlarmManager) context.getSystemService(ALARM_SERVICE);
             Intent intent2 = new Intent(context, ReminderReceiver.class);
             PendingIntent pendingIntent2 = PendingIntent.getBroadcast(context, 0, intent2, PendingIntent.FLAG_UPDATE_CURRENT);
             Calendar calendar = Calendar.getInstance();
-            calendar.set(Calendar.MINUTE, calendar.get(Calendar.MINUTE)+1);
+            calendar.set(Calendar.MINUTE, calendar.get(Calendar.MINUTE) + 1);
             calendar.set(Calendar.SECOND, 0);
             SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy/kk/mm");
             Log.d("MAKANCEPAT", "Sekarang2 : " + dateFormat.format(calendar.getTime()));
@@ -97,6 +94,7 @@ public class ReminderReceiver extends BroadcastReceiver {
             sessionManager.setKeyShiftKerja("-1");
             Log.d("MAKANCEPAT", "Session Is Working  : " + sessionManager.getKurirDetails().get(SessionManager.KEY_IS_WORKING));
             Log.d("MAKANCEPAT", "Session Shift Kerja : " + sessionManager.getKurirDetails().get(SessionManager.KEY_SHIFT_KERJA));
+
             LoginInterface apiService = Communicator.getClient().create(LoginInterface.class);
             Call<InfoModel> user = apiService.setKurirIsWorking(
                     sessionManager.getKurirDetails().get(SessionManager.KEY_EMAIL),
@@ -119,22 +117,25 @@ public class ReminderReceiver extends BroadcastReceiver {
                     Log.e("MAKANCEPAT", t.getMessage());
                 }
             });
-
-            Intent MainActivityIntent = new Intent(context, ActivityMain.class);
-            MainActivityIntent.putExtra("notifikasiAlarm", 3);
-            //MainActivityIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
-            PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, MainActivityIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-            NotificationManager manager = (NotificationManager) context.getSystemService(context.NOTIFICATION_SERVICE);
-            NotificationCompat.Builder builder = new NotificationCompat.Builder(context)
-                    .setAutoCancel(true)
-                    .setContentTitle("Makan Cepat Reminder")
-                    .setContentText("Mengingatkan waktu kerja usai")
-                    .setSmallIcon(R.drawable.logo_makancepat)
-                    .setTicker("Makan Cepat Reminder")
-                    .setVibrate(new long[DEFAULT_VIBRATE])
-                    .setContentIntent(pendingIntent)
-                    .setPriority(Notification.PRIORITY_MAX);
-            manager.notify(1000, builder.build());
+            setNotification(context, "Mengingatkan waktu kerja usai", ActivityMain.class, "3");
         }
+    }
+
+    private void setNotification(Context context, String Message, Class forward, String putExtra) {
+        Intent MainActivityIntent = new Intent(context, forward);
+        MainActivityIntent.putExtra("notifikasiAlarm", putExtra);
+        //MainActivityIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, MainActivityIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+        NotificationManager manager = (NotificationManager) context.getSystemService(context.NOTIFICATION_SERVICE);
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(context)
+                .setAutoCancel(true)
+                .setContentTitle("Makan Cepat Reminder")
+                .setContentText(Message)
+                .setSmallIcon(R.drawable.logo_makancepat)
+                .setTicker("Makan Cepat Reminder")
+                .setVibrate(new long[DEFAULT_VIBRATE])
+                .setContentIntent(pendingIntent)
+                .setPriority(Notification.PRIORITY_MAX);
+        manager.notify(1000, builder.build());
     }
 }

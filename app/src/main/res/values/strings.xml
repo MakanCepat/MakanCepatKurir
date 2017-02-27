@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">Kurir</string>
-    <string name="title_activity_home">HomeActivity</string>
+
+    <!-- TITLE ACTIVITY KURIR -->
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_edit_profile">Edit Profil</string>
+    <string name="title_activity_verifikasi_email">Verifikasi Email</string>
+    <string name="title_activity_registration">Pendaftaran</string>
+    <string name="title_activity_detail_profile">Detail Profil</string>
+    <string name="title_activity_change_password">Ubah Password</string>
+    <string name="title_activity_transaction">Transaksi</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -9,14 +18,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_dompetku">Dompetku</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="title_activity_keranjang_belanja">Keranjang Belanja</string>
-    <string name="title_activity_login">Login</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
+    <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
@@ -26,7 +32,6 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-    <string name="title_activity_edit_profil">Edit Profil</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -116,13 +121,8 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-    <string name="title_activity_complete_profil">Complete Profil</string>
-    <string name="title_activity_detail_makanan">Detail Makanan</string>
-    <string name="title_activity_checkout">Checkout</string>
     <string name="search">Search</string>
     <string name="title_search">Search results for: </string>
-    <string name="title_activity_user_maps">Map</string>
-    <string name="title_activity_edit_profile">Settings</string>
 
     <!-- Strings related to Settings -->
 
@@ -217,6 +217,8 @@
 
     <!-- STRING PENGAMBILAN JADWAL KURIR -->
     <string name="dialog_title">Pilih Jadwal</string>
+    <string name="btnActivityDaftar">Daftar</string>
+    <string name="btnActivityLogin">Masuk</string>
     <string-array name="jadwal_kerja">
         <item> Pagi  (09.00 - 14.00 WIB)</item>
         <item> Siang (14.00 - 18.00 WIB)</item>

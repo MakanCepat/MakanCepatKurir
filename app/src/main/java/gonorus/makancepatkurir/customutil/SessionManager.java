@@ -8,48 +8,57 @@ import android.util.Log;
 import java.util.HashMap;
 
 import gonorus.makancepatkurir.model.ModelKurir;
-import gonorus.makancepatkurir.view.ActivityLogin;
 import gonorus.makancepatkurir.view.ActivityMain;
 
 public class SessionManager {
     // Shared Preferences
-    SharedPreferences pref;
+    private SharedPreferences pref;
 
     // Editor for Shared preferences
-    SharedPreferences.Editor editor;
+    private SharedPreferences.Editor editor;
 
     // Context
-    Context context;
+    private Context context;
 
     // Shared pref mode
-    int PRIVATE_MODE = 0;
+    private static final int PRIVATE_MODE = 0;
 
     // Sharedpref file name
     private static final String PREF_NAME = "session_manager";
 
-    // All Shared Preferences Keys
-    private static final String IS_LOGIN = "IsLoggedIn";
+    // kondisi status kurir sedang menggunakan aplikasi atau tidak
+    private static final String IS_LOGIN = "Is Logged In";
 
-    // User name (make variable public to access from outside)
-    public static final String KEY_NAME = "name";
-
-    // Email address (make variable public to access from outside)
-    public static final String KEY_EMAIL = "email";
-
-    // ID kurir
+    // id yang dimiliki kurir
     public static final String KEY_ID_KURIR = "id_kurir";
 
-    // KEY_VALIDATE
-    public static final String KEY_VALIDATE = "key_validate";
+    // email yang digunakan kurir
+    public static final String KEY_EMAIL = "email";
 
-    // url foto
+    // nama lengkap yang digunakan kurir
+    public static final String KEY_NAME = "first_name + last_name";
+
+    // kunci validasi aktivitas kurir
+    public static final String KEY_VALIDATE = "validate_key";
+
+    // status aktivasi account
+    // 0 => belum teraktivasi
+    public static final String KEY_IS_VALIDATE = "is_validated";
+
+    // url foto kurir yang login
     public static final String KEY_FOTO = "foto";
 
-    public static final String KEY_ID_TRANSAKSI = "-1";
+    // status kurir sedang bekerja atau tidak
+    // 0 => sedang tidak bekerja / sedang melayani antaran
+    public static final String KEY_IS_WORKING = "is_working";
 
-    public static final String KEY_IS_WORKING = "0";
+    // id transaksi yang di layani kurir
+    // 0 => sedang tidak melayani transaksi
+    public static final String KEY_ID_TRANSAKSI = "id_transaksi";
 
-    public static final String KEY_SHIFT_KERJA = "-1";
+    // status jadwal kurir yang terdaftar
+    // -1 => tidak memiliki jadwal terdaftar
+    public static final String KEY_SHIFT_KERJA = "shift_kerja";
 
     // Constructor
     public SessionManager(Context context) {
@@ -64,13 +73,16 @@ public class SessionManager {
     public void createLoginSession(ModelKurir model) {
         // Storing login value as TRUE
         editor.putBoolean(IS_LOGIN, true);
-
-        editor.putString(KEY_NAME, (model.getFirstName() + " " + model.getLastName()).trim());
-        editor.putString(KEY_EMAIL, model.getEmail());
         editor.putInt(KEY_ID_KURIR, model.getIdKurir());
+        editor.putString(KEY_EMAIL, model.getEmail());
+        editor.putString(KEY_NAME, (model.getFirstName() + " " + model.getLastName()).trim());
         editor.putString(KEY_VALIDATE, model.getKey_validate());
+        editor.putInt(KEY_IS_VALIDATE, model.getIs_validate());
         editor.putString(KEY_FOTO, model.getFoto());
-        editor.putString(KEY_IS_WORKING, model.getIsWorking());
+        editor.putInt(KEY_IS_WORKING, model.getIsWorking());
+        editor.putInt(KEY_ID_TRANSAKSI, 0);
+        editor.putInt(KEY_SHIFT_KERJA, -1);
+
         // commit changes
         editor.commit();
     }
@@ -79,39 +91,17 @@ public class SessionManager {
      * Get stored session data
      */
     public HashMap<String, String> getKurirDetails() {
-        HashMap<String, String> user = new HashMap<String, String>();
-        user.put(KEY_NAME, pref.getString(KEY_NAME, null));
-        user.put(KEY_EMAIL, pref.getString(KEY_EMAIL, null));
+        HashMap<String, String> user = new HashMap<>();
         user.put(KEY_ID_KURIR, Integer.toString(pref.getInt(KEY_ID_KURIR, 0)));
+        user.put(KEY_EMAIL, pref.getString(KEY_EMAIL, ""));
+        user.put(KEY_NAME, pref.getString(KEY_NAME, ""));
+        user.put(KEY_VALIDATE, pref.getString(KEY_VALIDATE, ""));
+        user.put(KEY_IS_VALIDATE, Integer.toString(pref.getInt(KEY_IS_VALIDATE, 0)));
         user.put(KEY_FOTO, pref.getString(KEY_FOTO, ""));
-        user.put(KEY_VALIDATE, pref.getString(KEY_VALIDATE, null));
-        user.put(KEY_ID_TRANSAKSI, pref.getString(KEY_ID_TRANSAKSI, "-1"));
-        user.put(KEY_IS_WORKING, pref.getString(KEY_IS_WORKING, "0"));
-        user.put(KEY_SHIFT_KERJA, pref.getString(KEY_SHIFT_KERJA, "-1"));
-        // return user
+        user.put(KEY_IS_WORKING, Integer.toString(pref.getInt(KEY_IS_WORKING, 0)));
+        user.put(KEY_ID_TRANSAKSI, Integer.toString(pref.getInt(KEY_ID_TRANSAKSI, 0)));
+        user.put(KEY_SHIFT_KERJA, Integer.toString(pref.getInt(KEY_SHIFT_KERJA, -1)));
         return user;
-    }
-
-    /**
-     * Check login method wil check user login status
-     * If false it will redirect user to login page
-     * Else won't do anything
-     */
-    public void checkLogin() {
-        // Check login status
-        if (!this.isLoggedIn()) {
-            // user is not logged in redirect him to Login Activity
-            Intent i = new Intent(context, ActivityLogin.class);
-            // Closing all the Activities
-            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-
-            // Add new Flag to start new Activity
-            i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-
-            // Staring Login Activity
-            context.startActivity(i);
-        }
-
     }
 
     /**
@@ -147,8 +137,8 @@ public class SessionManager {
         editor.commit();
     }
 
-    public void setKeyIdTransaksi(String id_transaksi) {
-        editor.putString(KEY_ID_TRANSAKSI, id_transaksi);
+    public void setKeyIdTransaksi(int id_transaksi) {
+        editor.putInt(KEY_ID_TRANSAKSI, id_transaksi);
         editor.commit();
     }
 

@@ -34,59 +34,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:orientation="vertical">
-            <!--
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <LinearLayout
-                                android:id="@+id/layoutSocialLogin"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content">
-
-                                <Button
-                                    android:id="@+id/btnLoginFacebook"
-                                    android:layout_width="0dp"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight=".5"
-                                    android:text="Facebook" />
-
-                                <Button
-                                    android:id="@+id/btnLoginGoogle"
-                                    android:layout_width="0dp"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight=".5"
-                                    android:text="Google" />
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_below="@id/layoutSocialLogin"
-                                android:gravity="center"
-                                android:orientation="horizontal">
-
-                                <View
-                                    android:layout_width="0dp"
-                                    android:layout_height="5dp"
-                                    android:layout_weight="1"
-                                    android:background="@color/line_color" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="4dp"
-                                    android:layout_marginRight="4dp"
-                                    android:text="ATAU" />
-
-                                <View
-                                    android:layout_width="0dp"
-                                    android:layout_height="5dp"
-                                    android:layout_weight="1"
-                                    android:background="@color/line_color" />
-                            </LinearLayout>
-                        </RelativeLayout>
-                        -->
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -117,7 +64,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
-                    app:hintEnabled="false">
+                    android:background="@drawable/rounded_edittext"
+                    app:hintEnabled="false"
+                    app:passwordToggleEnabled="true">
 
                     <EditText
                         android:id="@+id/password"
@@ -130,8 +79,7 @@
                         android:imeOptions="actionUnspecified"
                         android:inputType="textPassword"
                         android:maxLines="1"
-                        android:padding="12dp"
-                        app:passwordToggleEnabled="true" />
+                        android:padding="12dp" />
 
                 </android.support.design.widget.TextInputLayout>
 

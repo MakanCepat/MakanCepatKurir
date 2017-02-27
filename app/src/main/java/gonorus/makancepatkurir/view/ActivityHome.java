@@ -1,6 +1,5 @@
 package gonorus.makancepatkurir.view;
 
-import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -44,20 +43,19 @@ public class ActivityHome extends AppCompatActivity {
 
     private boolean doubleBackToExitPressedOnce = false;
 
-    View drawerView;
-    DrawerLayout drawer;
-    ItemDrawerAdapter listAdapter;
-    ExpandableListView expListView;
-    List<String> listDataHeader;
-    HashMap<String, List<String>> listDataChild;
-    private int lastExpandedPosition = -1;
-    private int lastMenuClickedPosition = -1;
-    NavigationView navigationView;
-    TextView txtTitleBar;
-    CircleImageView profileImage;
-    boolean menuClickedOrNot = false;
-    SessionManager sessionManager;
-    public int temp;
+    private Toolbar toolbar;
+    private ImageView notificationIcon;
+    private DrawerLayout drawer;
+    private ItemDrawerAdapter listAdapter;
+    private ExpandableListView expListView;
+    private List<String> listDataHeader;
+    private HashMap<String, List<String>> listDataChild;
+    private NavigationView navigationView;
+    private TextView txtTitleBar;
+    private CircleImageView profileImage;
+    private boolean menuClickedOrNot = false;
+    private SessionManager sessionManager;
+    private int temp;
     private Intent intentTransaksi = null;
 
     @Override
@@ -65,30 +63,57 @@ public class ActivityHome extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_home);
+        init();
+
+        try {
+            temp = getIntent().getIntExtra("notifikasiAlarm", 0);
+        } catch (Exception E) {
+            temp = 0;
+        }
+        selectItem(temp);
+    }
+
+    private void init() {
+        sessionManager = new SessionManager(this);
+        intentTransaksi = new Intent(this, ActivityTransaction.class);
+
+        toolbar = (Toolbar) findViewById(R.id.toolbar_home);
+        txtTitleBar = (TextView) findViewById(R.id.txtTitleAppBar);
+        drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        expListView = (ExpandableListView) findViewById(R.id.drawerlist);
+        navigationView = (NavigationView) findViewById(R.id.nav_view);
+        notificationIcon = (ImageView) findViewById(R.id.btnNotifAppBar);
+
+        prepareListData();
+        initView();
+    }
+
+    private void initView() {
+        if (sessionManager.getKurirDetails().get(SessionManager.KEY_IS_VALIDATE).equals("0")) {
+            notificationIcon.setVisibility(View.GONE);
+        }
+
+        /*
+        * SETTING APPBAR
+        * */
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
-        ImageView notificationIcon = (ImageView) findViewById(R.id.btnNotifAppBar);
         notificationIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (temp != 3)
-                    selectItem(3);
+                selectItem(3);
+                expListView.setItemChecked(0, false);
             }
         });
-
-        txtTitleBar = (TextView) findViewById(R.id.txtTitleAppBar);
         setMyTitleBar("Makan Cepat");
-        drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+
+        /*
+        * SETTING DRAWER
+        * */
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
-
-        expListView = (ExpandableListView) findViewById(R.id.drawerlist);
-        navigationView = (NavigationView) findViewById(R.id.nav_view);
-
-        prepareListData();
 
         listAdapter = new ItemDrawerAdapter(this, listDataHeader, listDataChild);
         expListView.setAdapter(listAdapter);
@@ -96,44 +121,19 @@ public class ActivityHome extends AppCompatActivity {
         expListView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
             @Override
             public boolean onGroupClick(ExpandableListView expandableListView, View view, int groupPosition, long l) {
-
-                TextView txt = (TextView) view.findViewById(R.id.labelListDrawer);
                 if (groupPosition != 11) {
                     int index = expandableListView.getFlatListPosition(ExpandableListView.getPackedPositionForGroup(groupPosition));
                     expandableListView.setItemChecked(index, true);
-                    /*if (groupPosition != lastMenuClickedPosition && lastMenuClickedPosition == -1) {
-                        txt.setTextColor(getResources().getColor(R.color.list_text_color));
-                    } else txt.setTextColor(getResources().getColor(R.color.colorPrimary));
-                    */
                     selectItem(groupPosition);
                     menuClickedOrNot = true;
-                } else {
-                    //txt.setTextColor(getResources().getColor(R.color.list_text_color));
-                    menuClickedOrNot = false;
                 }
-
-                lastMenuClickedPosition = groupPosition;
                 return menuClickedOrNot;
             }
         });
-        expListView.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
-            @Override
-            public void onGroupExpand(int groupPosition) {
-                if (lastExpandedPosition != -1 && groupPosition != lastExpandedPosition) {
-                    expListView.collapseGroup(lastExpandedPosition);
-                }
-                lastExpandedPosition = groupPosition;
-            }
-        });
 
-        expListView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
-            @Override
-            public boolean onChildClick(ExpandableListView parent, View view, int groupPosition, int childPosition, long l) {
-                int index = parent.getFlatListPosition(ExpandableListView.getPackedPositionForChild(groupPosition, childPosition));
-                parent.setItemChecked(index, true);
-                return false;
-            }
-        });
+        /*
+        * SETTING HEADER DRAWER
+        * */
         View headerview = navigationView.getHeaderView(0);
         profileImage = (CircleImageView) headerview.findViewById(R.id.profile_image);
         profileImage.setOnClickListener(new View.OnClickListener() {
@@ -143,41 +143,26 @@ public class ActivityHome extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-        sessionManager = new SessionManager(this);
         TextView txtUsername = (TextView) headerview.findViewById(R.id.nav_header_txt_username);
         txtUsername.setText(sessionManager.getKurirDetails().get(SessionManager.KEY_NAME));
         try {
             if (!(sessionManager.getKurirDetails().get(SessionManager.KEY_FOTO)).trim().isEmpty())
                 Picasso.with(getApplicationContext()).load(Communicator.BASE_URL + "kurir/images/profile/" + sessionManager.getKurirDetails().get(SessionManager.KEY_FOTO)).skipMemoryCache().into(profileImage);
         } catch (NullPointerException NPE) {
-            // Null Pointer Exception did not find any picture
+            Log.e("MAKANCEPAT", NPE.getMessage());
         }
-
-        intentTransaksi = new Intent(this, ActivityTransaction.class);
-        intentTransaksi.putExtra("IDTransaksi", sessionManager.getKurirDetails().get(SessionManager.KEY_ID_TRANSAKSI));
-
-        try {
-            Log.d("MAKANCEPAT", "temp = " + getIntent().getIntExtra("notifikasiAlarm", 0));
-            temp = getIntent().getIntExtra("notifikasiAlarm", 0);
-        } catch (Exception E) {
-            temp = 0;
-        }
-        selectItem(temp);
     }
 
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (temp == 1 || temp == 3) {
+        if (temp == 3) {
             selectItem(4);
         } else if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
             //Checking for fragment count on backstack
-            if (getSupportFragmentManager().getBackStackEntryCount() > 0) {
-                getSupportFragmentManager().popBackStack();
-            } else if (!doubleBackToExitPressedOnce) {
+            if (!doubleBackToExitPressedOnce) {
                 this.doubleBackToExitPressedOnce = true;
                 Toast.makeText(this, "Please click BACK again to exit.", Toast.LENGTH_SHORT).show();
 
@@ -190,7 +175,6 @@ public class ActivityHome extends AppCompatActivity {
                 }, 2000);
             } else {
                 super.onBackPressed();
-                //return;
             }
         }
     }
@@ -206,8 +190,7 @@ public class ActivityHome extends AppCompatActivity {
             Intent intent = new Intent(getApplicationContext(), ActivitySearchResult.class);
             startActivity(intent);
             return true;
-        }
-        if (id == R.id.menuHomeSearch) {
+        } else if (id == R.id.menuHomeSearch) {
             return true;
         }
         return super.onOptionsItemSelected(item);
@@ -227,17 +210,12 @@ public class ActivityHome extends AppCompatActivity {
      * Preparing the list data
      */
     private void prepareListData() {
-        listDataHeader = new ArrayList<String>();
-        listDataChild = new HashMap<String, List<String>>();
+        listDataHeader = new ArrayList<>();
 
         // Adding Header data
-        listDataHeader.add("Halaman Depan");
+        listDataHeader.add(0, "Halaman Depan");
         listDataHeader.add(1, "Transaksi");
         listDataHeader.add(2, "Logout");
-
-        // Header, Child data
-        //listDataChild.put(listDataHeader.get(0), new ArrayList<String>());
-        //listDataChild.put(listDataHeader.get(2), new ArrayList<String>());
     }
 
     /**
@@ -248,7 +226,7 @@ public class ActivityHome extends AppCompatActivity {
         // Create a new fragment and specify the planet to show based on position
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        Fragment fragment = null;
+        Fragment fragment;
 
         switch (position) {
             case 0:
@@ -256,13 +234,17 @@ public class ActivityHome extends AppCompatActivity {
                 fragmentTransaction
                         .replace(R.id.content_frame, fragment)
                         .commit();
-
                 drawer.closeDrawer(GravityCompat.START);
                 break;
             case 1:
-                overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
-                startActivity(intentTransaksi);
-                finish();
+                if (!sessionManager.getKurirDetails().get(SessionManager.KEY_ID_TRANSAKSI).equals("0")) {
+                    overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
+                    startActivity(intentTransaksi);
+                    finish();
+                    expListView.setItemChecked(position, true);
+                } else {
+                    expListView.setItemChecked(0, true);
+                }
                 break;
             case 2:
                 showLogoutDialog();
@@ -273,7 +255,6 @@ public class ActivityHome extends AppCompatActivity {
                 fragmentTransaction
                         .replace(R.id.content_frame, fragment)
                         .commit();
-
                 drawer.closeDrawer(GravityCompat.START);
                 break;
             case 4:
@@ -282,8 +263,8 @@ public class ActivityHome extends AppCompatActivity {
                 fragmentTransaction
                         .replace(R.id.content_frame, fragment)
                         .commit();
-
                 drawer.closeDrawer(GravityCompat.START);
+                expListView.setItemChecked(0, true);
                 break;
             default:
                 fragment = new FragmentHalamanDepan();
@@ -301,7 +282,10 @@ public class ActivityHome extends AppCompatActivity {
         builder.setPositiveButton("Ya", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
                 LoginInterface apiService = Communicator.getClient().create(LoginInterface.class);
-                Call<ModelKurir> user = apiService.checkLogout(sessionManager.getKurirDetails().get(SessionManager.KEY_EMAIL));
+                Call<ModelKurir> user = apiService.checkLogout(
+                        sessionManager.getKurirDetails().get(SessionManager.KEY_EMAIL),
+                        sessionManager.getKurirDetails().get(SessionManager.KEY_VALIDATE)
+                );
                 user.enqueue(new Callback<ModelKurir>() {
                     @Override
                     public void onResponse(Call<ModelKurir> call, Response<ModelKurir> response) {
@@ -321,7 +305,7 @@ public class ActivityHome extends AppCompatActivity {
         });
         builder.setNegativeButton("Tidak", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
-                // User cancelled the dialog
+                expListView.setItemChecked(0, true);
             }
         });
 
@@ -333,11 +317,12 @@ public class ActivityHome extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        /*
         intentTransaksi = new Intent(this, ActivityTransaction.class);
-        intentTransaksi.putExtra("IDTransaksi", sessionManager.getKurirDetails().get(SessionManager.KEY_ID_TRANSAKSI));
+        intentTransaksi.putExtra("NotifikasiFirebaseIntent", Integer.parseInt(getIntent().getExtras().get("NotifikasiFirebaseIntent").toString()));
+        */
 
         try {
-            Log.d("MAKANCEPAT", "temp = " + getIntent().getIntExtra("notifikasiAlarm", 0));
             temp = getIntent().getIntExtra("notifikasiAlarm", 0);
         } catch (Exception E) {
             temp = 0;

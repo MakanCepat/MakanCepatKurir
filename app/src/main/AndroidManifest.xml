@@ -2,73 +2,86 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="gonorus.makancepatkurir">
 
-    <!-- PERMISSION STATEMENT -->
-    <!--
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.READ_PROFILE" />
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
-    -->
-
+    <!-- APPLICATION PERMISSIONS NEEDED -->
+    <!-- GET AND SEND INFORMATION USE NETWORK -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- READ AND WRITE IN USER STORAGE DEVICE -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- GET USER LOCATION -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <!-- GRANT ACCESS APPLICATION AFTER REBOOT -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- GRANT ACCESS APPLICATION TO SET DEVICE ALARM -->
     <uses-permission android:name="android.alarm.permission.SET_ALARM" />
 
+    <!-- <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" /> -->
+
+    <!-- APPLICATION REGISTER -->
     <application
         android:name="android.support.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:icon="@drawable/logo_makancepat"
         android:label="@string/app_name"
         android:theme="@style/MyMaterialTheme">
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo_makancepat2" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <!-- NOTIFICATION RECEIVER REGISTER -->
         <receiver android:name=".rest.ReminderReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".rest.ReminderReceiver2">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-        </receiver>
 
-        <!-- SERVICE STATEMENT -->
-        <service android:name=".rest.FirebaseMessagingService">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
+        <!-- SERVICE STATEMENT REGISTER -->
         <service android:name=".rest.FirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
+        <service android:name=".rest.FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
 
-        <!-- AVTIVITY LIST -->
+        <!-- AVTIVITY REGISTER -->
         <activity android:name=".view.ActivityMain">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".view.ActivityHome"
             android:label="@string/title_activity_home"
             android:theme="@style/MyMaterialTheme" />
+
         <activity
             android:name=".view.ActivityEditProfile"
-            android:label="@string/title_activity_edit_profil"
+            android:label="@string/title_activity_edit_profile"
             android:parentActivityName=".view.ActivityEditProfile"
             android:theme="@style/MyMaterialTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".view.ActivityHome" />
         </activity>
+
         <activity
             android:name=".view.ActivitySearchResult"
             android:launchMode="singleTop">
@@ -80,13 +93,39 @@
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
         </activity>
-        <activity android:name=".view.ActivityVerifikasiEmail" />
-        <activity android:name=".view.ActivityLogin" />
-        <activity android:name=".view.ActivityRegistration" />
-        <activity android:name=".view.ActivityDetailProfile" />
-        <activity android:name=".view.ActivityChangePassword" />
+
+        <activity
+            android:name=".view.ActivityLogin"
+            android:label="@string/title_activity_login"
+            android:theme="@style/MyMaterialTheme" />
+
+        <activity
+            android:name=".view.ActivityVerifikasiEmail"
+            android:label="@string/title_activity_verifikasi_email"
+            android:parentActivityName=".view.ActivityLogin"
+            android:theme="@style/MyMaterialTheme" />
+
+        <activity
+            android:name=".view.ActivityRegistration"
+            android:label="@string/title_activity_registration"
+            android:theme="@style/MyMaterialTheme" />
+
+        <activity
+            android:name=".view.ActivityDetailProfile"
+            android:label="@string/title_activity_detail_profile"
+            android:theme="@style/MyMaterialTheme" />
+
+        <activity
+            android:name=".view.ActivityChangePassword"
+            android:label="@string/title_activity_change_password"
+            android:theme="@style/MyMaterialTheme" />
+
         <activity android:name=".view.ActivityPermission" />
-        <activity android:name=".view.ActivityTransaction"></activity>
+
+        <activity
+            android:name=".view.ActivityTransaction"
+            android:label="@string/title_activity_transaction"
+            android:theme="@style/MyMaterialTheme" />
     </application>
 
 </manifest>
