@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    tools:context="gonorus.makancepatkurir.view.ActivityEditProfile">
+
+    <LinearLayout
+        android:id="@+id/activity_edit_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:orientation="vertical"
+        tools:context="adriyo.makancepat.view.EditProfileActivity">
+
+        <include
+            layout="@layout/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/underline"
+                android:padding="4dp"
+                android:text="Data Diri"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:background="@drawable/btn_rounded_default"
+                    android:padding="10dp">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/rounded_edittext">
+
+                            <EditText
+                                android:id="@+id/txtNamaDepan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#00000000"
+                                android:hint="Nama depan"
+                                android:inputType="textPersonName"
+                                android:padding="@dimen/login_tabel_margin"
+                                android:textSize="@dimen/text_size_inside_form" />
+
+                        </android.support.design.widget.TextInputLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/rounded_edittext">
+
+                            <EditText
+                                android:id="@+id/txtNamaBelakang"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#00000000"
+                                android:hint="Nama Belakang (Opsional)"
+                                android:inputType="textPersonName"
+                                android:padding="@dimen/login_tabel_margin"
+                                android:textSize="@dimen/text_size_inside_form" />
+
+                        </android.support.design.widget.TextInputLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/rounded_edittext">
+
+                            <EditText
+                                android:id="@+id/txtNoTelp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#00000000"
+                                android:hint="No Telepon"
+                                android:inputType="phone"
+                                android:padding="@dimen/login_tabel_margin"
+                                android:textSize="@dimen/text_size_inside_form" />
+                        </android.support.design.widget.TextInputLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/rounded_edittext">
+
+                            <EditText
+                                android:id="@+id/txtAlamat"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#00000000"
+                                android:gravity="start"
+                                android:hint="Alamat Lengkap"
+                                android:inputType="textMultiLine"
+                                android:maxLines="6"
+                                android:minLines="4"
+                                android:padding="@dimen/login_tabel_margin"
+                                android:textSize="@dimen/text_size_inside_form" />
+                        </android.support.design.widget.TextInputLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/rounded_edittext">
+
+                            <Spinner
+                                android:layout_weight="1"
+                                android:id="@+id/spinnerBank"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/rounded_edittext"
+                                android:entries="@array/list_bank"
+                                android:padding="@dimen/login_tabel_margin"
+                                android:spinnerMode="dialog" />
+                        </android.support.design.widget.TextInputLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/rounded_edittext">
+
+                            <EditText
+                                android:id="@+id/txtNoRekening"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#00000000"
+                                android:hint="No Rekening"
+                                android:inputType="numberSigned"
+                                android:padding="@dimen/login_tabel_margin"
+                                android:textSize="@dimen/text_size_inside_form" />
+                        </android.support.design.widget.TextInputLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/rounded_edittext">
+
+                            <EditText
+                                android:id="@+id/txtNoKTP"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#00000000"
+                                android:hint="No KTP"
+                                android:inputType="numberSigned"
+                                android:padding="@dimen/login_tabel_margin"
+                                android:textSize="@dimen/text_size_inside_form" />
+                        </android.support.design.widget.TextInputLayout>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/btnEditProfil"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                            android:layout_marginTop="@dimen/activity_horizontal_margin"
+                            android:layout_weight="1"
+                            android:background="@drawable/ripple_effect_btn_default"
+                            android:text="SAVE"
+                            android:textColor="@android:color/holo_red_dark" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

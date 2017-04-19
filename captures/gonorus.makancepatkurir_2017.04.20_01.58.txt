@@ -1,0 +1,130 @@
+TASK gonorus.makancepatkurir id=4
+  ACTIVITY gonorus.makancepatkurir/.view.ActivityHome 6477ae5 pid=5918
+    Local FragmentActivity 2294761e State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    Active Fragments in 140c5678:
+      #0: FragmentHalamanDepan{24699151 #0 id=0x7f1100e0}
+        mFragmentId=#7f1100e0 mContainerId=#7f1100e0 mTag=null
+        mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{140c5678 in HostCallbacks{20dfbdb6}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@20dfbdb6
+        mContainer=android.widget.FrameLayout{1bd56ab7 V.E..... ........ 0,112-768,1134 #7f1100e0 app:id/content_frame}
+        mView=android.widget.ScrollView{20ec6224 VFED.V.. ........ 0,0-768,1022}
+        mInnerView=android.widget.ScrollView{20ec6224 VFED.V.. ........ 0,0-768,1022}
+        Child FragmentManager{1664f18d in FragmentHalamanDepan{24699151}}:
+          Active Fragments in 1664f18d:
+            #0: FragmentImageSlider{2aa1ff42 #0 id=0x7f1100ea}
+              mFragmentId=#7f1100ea mContainerId=#ffffffff mTag=null
+              mState=5 mIndex=0 mWho=android:fragment:0:0 mBackStackNesting=0
+              mAdded=true mRemoving=false mFromLayout=true mInLayout=true
+              mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+              mRetainInstance=false mRetaining=false mUserVisibleHint=true
+              mFragmentManager=FragmentManager{1664f18d in FragmentHalamanDepan{24699151}}
+              mHost=android.support.v4.app.FragmentActivity$HostCallbacks@20dfbdb6
+              mParentFragment=FragmentHalamanDepan{24699151 #0 id=0x7f1100e0}
+              mView=android.widget.LinearLayout{31cbfb53 V.E..... ........ 0,0-768,540 #7f1100ea app:id/fooFragment}
+              mInnerView=android.widget.LinearLayout{31cbfb53 V.E..... ........ 0,0-768,540 #7f1100ea app:id/fooFragment}
+              Child FragmentManager{f9f7c90 in FragmentImageSlider{2aa1ff42}}:
+                FragmentManager misc state:
+                  mHost=android.support.v4.app.FragmentActivity$HostCallbacks@20dfbdb6
+                  mContainer=android.support.v4.app.Fragment$2@263c1989
+                  mParent=FragmentImageSlider{2aa1ff42 #0 id=0x7f1100ea}
+                  mCurState=5 mStateSaved=false mDestroyed=false
+            #1: FragmentImageSlider{2054cd8e #1 id=0x7f110146}
+              mFragmentId=#7f110146 mContainerId=#ffffffff mTag=null
+              mState=5 mIndex=1 mWho=android:fragment:0:1 mBackStackNesting=0
+              mAdded=true mRemoving=false mFromLayout=true mInLayout=true
+              mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+              mRetainInstance=false mRetaining=false mUserVisibleHint=true
+              mFragmentManager=FragmentManager{1664f18d in FragmentHalamanDepan{24699151}}
+              mHost=android.support.v4.app.FragmentActivity$HostCallbacks@20dfbdb6
+              mParentFragment=FragmentHalamanDepan{24699151 #0 id=0x7f1100e0}
+              mView=android.widget.LinearLayout{2490f9af V.E..... ........ 0,700-768,1240 #7f110146 app:id/fooFragment2}
+              mInnerView=android.widget.LinearLayout{2490f9af V.E..... ........ 0,700-768,1240 #7f110146 app:id/fooFragment2}
+              Child FragmentManager{a27d1bc in FragmentImageSlider{2054cd8e}}:
+                FragmentManager misc state:
+                  mHost=android.support.v4.app.FragmentActivity$HostCallbacks@20dfbdb6
+                  mContainer=android.support.v4.app.Fragment$2@2843c545
+                  mParent=FragmentImageSlider{2054cd8e #1 id=0x7f110146}
+                  mCurState=5 mStateSaved=false mDestroyed=false
+          Added Fragments:
+            #0: FragmentImageSlider{2aa1ff42 #0 id=0x7f1100ea}
+            #1: FragmentImageSlider{2054cd8e #1 id=0x7f110146}
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@20dfbdb6
+            mContainer=android.support.v4.app.Fragment$2@2354349a
+            mParent=FragmentHalamanDepan{24699151 #0 id=0x7f1100e0}
+            mCurState=5 mStateSaved=false mDestroyed=false
+    Added Fragments:
+      #0: FragmentHalamanDepan{24699151 #0 id=0x7f1100e0}
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@20dfbdb6
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@20dfbdb6
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{3bfd81cb V.E..... ... 0,0-768,1280}
+        android.widget.LinearLayout{367e4da8 V.E..... ... 0,0-768,1184}
+          android.view.ViewStub{276070c1 G.E..... ... 0,0-0,0 #1020373}
+          android.widget.FrameLayout{1cb10066 V.E..... ... 0,0-768,1184}
+            android.support.v7.widget.FitWindowsLinearLayout{1a606fa7 V.E..... ... 0,0-768,1184 #7f1100b6 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{1f3e9c54 G.E..... ... 0,0-0,0 #7f1100b7 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{1e4257fd V.E..... ... 0,0-768,1184 #1020002 android:id/content}
+                android.support.v4.widget.DrawerLayout{23bcbcf2 VFED.... F.. 0,0-768,1184 #7f1100dc app:id/drawer_layout}
+                  android.widget.LinearLayout{e1a5f43 V.E..... ... 0,50-768,1184}
+                    android.support.design.widget.AppBarLayout{3b1329c0 V.E..... ... 0,0-768,112}
+                      android.support.v7.widget.Toolbar{86176f9 V.E..... ... 0,0-768,112 #7f1100dd app:id/toolbar_home}
+                        android.support.v7.widget.AppCompatTextView{155b63e V.ED.... ... 266,29-503,83 #7f1100de app:id/txtTitleAppBar}
+                        android.support.v7.widget.AppCompatImageView{20f9ac9f V.ED..C. ... 690,32-738,80 #7f1100df app:id/btnNotifAppBar}
+                        android.support.v7.widget.AppCompatImageButton{3ee121ec VFED..C. ... 0,0-112,112}
+                        android.support.v7.widget.ActionMenuView{6b989b5 V.E..... ... 768,0-768,112}
+                    android.widget.FrameLayout{1bd56ab7 V.E..... ... 0,112-768,1134 #7f1100e0 app:id/content_frame}
+                      android.widget.ScrollView{20ec6224 VFED.V.. ... 0,0-768,1022}
+                        android.widget.LinearLayout{1bf2f84a V.E..... ... 0,0-768,1240}
+                          android.widget.LinearLayout{31cbfb53 V.E..... ... 0,0-768,540 #7f1100ea app:id/fooFragment}
+                            android.support.v4.view.ViewPager{15673bb VFED.... ... 0,0-768,480 #7f110147 app:id/imageSlidePager}
+                              android.widget.ImageView{26b470d8 V.ED.... ... 768,0-1536,480}
+                              android.widget.ImageView{14460c31 V.ED.... ... 0,0-768,480}
+                            android.widget.LinearLayout{18704f16 V.E..... ... 0,480-768,540}
+                              android.widget.LinearLayout{20ee9097 V.E..... ... 334,0-434,60}
+                                android.support.v7.widget.AppCompatImageView{216bc284 V.ED.... ... 0,20-20,40 #7f11015e app:id/btnIndicator1}
+                                android.support.v7.widget.AppCompatImageView{63e3a6d V.ED.... ... 40,20-60,40 #7f11015f app:id/btnIndicator2}
+                                android.support.v7.widget.AppCompatImageView{3b9a46a2 V.ED.... ... 80,20-100,40 #7f110160 app:id/btnIndicator3}
+                          android.support.v7.widget.AppCompatButton{25819f33 VFED..C. ... 244,572-523,668}
+                          android.widget.LinearLayout{2490f9af V.E..... ... 0,700-768,1240 #7f110146 app:id/fooFragment2}
+                            android.support.v4.view.ViewPager{b2482f0 VFED.... ... 0,0-768,480 #7f110147 app:id/imageSlidePager}
+                              android.widget.ImageView{14111069 V.ED.... ... 768,0-1536,480}
+                              android.widget.ImageView{187a2aee V.ED.... ... 0,0-768,480}
+                            android.widget.LinearLayout{72cfb8f V.E..... ... 0,480-768,540}
+                              android.widget.LinearLayout{2266de1c V.E..... ... 334,0-434,60}
+                                android.support.v7.widget.AppCompatImageView{23214a25 V.ED.... ... 0,20-20,40 #7f11015e app:id/btnIndicator1}
+                                android.support.v7.widget.AppCompatImageView{176207fa V.ED.... ... 40,20-60,40 #7f11015f app:id/btnIndicator2}
+                                android.support.v7.widget.AppCompatImageView{3887c1ab V.ED.... ... 80,20-100,40 #7f110160 app:id/btnIndicator3}
+                  android.widget.LinearLayout{2411c008 I.E..... ... -545,50-0,1184 #7f110186 app:id/drawer}
+                    android.support.design.widget.NavigationView{124163a1 V.E..... ... 0,0-560,1134 #7f110187 app:id/nav_view}
+                      android.support.design.internal.NavigationMenuView{21b8a9c6 VFED.V.. ... 0,0-560,1134 #7f110135 app:id/design_navigation_view}
+                        android.widget.LinearLayout{347ecd87 V.E..... ... 0,0-560,336 #7f110134 app:id/navigation_header_container}
+                          android.widget.LinearLayout{3a06d4b4 V.E..... ... 0,0-560,320}
+                            de.hdodenhof.circleimageview.CircleImageView{ef98dd V.ED..C. ... 184,32-376,224 #7f110122 app:id/profile_image}
+                            android.support.v7.widget.AppCompatTextView{3e859c52 V.ED.... ... 209,224-351,288 #7f110189 app:id/nav_header_txt_username}
+                      android.widget.LinearLayout{df0bb23 V.E..... ... 0,0-560,761}
+                        android.widget.ExpandableListView{28968820 VFED.VC. ... 0,320-560,586 #7f110188 app:id/drawerlist}
+                          android.widget.LinearLayout{e51e5d9 V.E..... ... 0,0-560,88}
+                            android.support.v7.widget.AppCompatImageView{2bbd2b9e V.ED.... ... 20,20-68,68 #7f110162 app:id/icon_list_drawer}
+                            android.support.v7.widget.AppCompatTextView{1d09e67f V.ED.... ... 68,25-540,63 #7f110163 app:id/labelListDrawer}
+                            android.support.v7.widget.AppCompatImageView{26ac064c G.ED.... ... 0,0-0,0 #7f110164 app:id/imgExpandList}
+                          android.widget.LinearLayout{bf20695 V.E..... ... 0,89-560,177}
+                            android.support.v7.widget.AppCompatImageView{4c63aa V.ED.... ... 20,20-68,68 #7f110162 app:id/icon_list_drawer}
+                            android.support.v7.widget.AppCompatTextView{26606b9b V.ED.... ... 68,25-540,63 #7f110163 app:id/labelListDrawer}
+                            android.support.v7.widget.AppCompatImageView{cb93b38 G.ED.... ... 0,0-0,0 #7f110164 app:id/imgExpandList}
+                          android.widget.LinearLayout{20397711 V.E..... ... 0,178-560,266}
+                            android.support.v7.widget.AppCompatImageView{22e51076 V.ED.... ... 20,20-68,68 #7f110162 app:id/icon_list_drawer}
+                            android.support.v7.widget.AppCompatTextView{17d02677 V.ED.... ... 68,25-540,63 #7f110163 app:id/labelListDrawer}
+                            android.support.v7.widget.AppCompatImageView{662d2e4 G.ED.... ... 0,0-0,0 #7f110164 app:id/imgExpandList}
+                        android.widget.LinearLayout{14ad734d V.E..... ... 0,586-560,761}
+                          android.support.v7.widget.AppCompatImageView{2189be02 V.ED.... ... 0,51-72,123}
+                          android.support.v7.widget.AppCompatTextView{3716b313 V.ED.... ... 72,0-560,175}
+        android.view.View{32ec3950 V.ED.... ... 0,1184-768,1280 #1020030 android:id/navigationBarBackground}

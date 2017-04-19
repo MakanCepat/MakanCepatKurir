@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="gonorus.makancepatkurir.view.FragmentImageSlider"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/imageSlidePager"
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+
+    </android.support.v4.view.ViewPager>
+
+    <include layout="@layout/indicator_image_view" />
+</LinearLayout>

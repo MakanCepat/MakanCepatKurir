@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        style="@style/NavDrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_home">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ExpandableListView
+                android:id="@+id/drawerlist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/nav_header_height"
+                android:background="#fff"
+                android:choiceMode="singleChoice"
+                android:groupIndicator="@null" />
+
+            <include layout="@layout/nav_footer_drawer" />
+        </LinearLayout>
+        <!--<include layout="@layout/nav_header_home" />
+        android:listSelector="@drawable/selector_expandable_list_item"
+        -->
+    </android.support.design.widget.NavigationView>
+</LinearLayout>

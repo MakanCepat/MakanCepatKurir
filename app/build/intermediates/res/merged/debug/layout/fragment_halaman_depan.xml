@@ -1,0 +1,38 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gonorus.makancepatkurir.view.FragmentHalamanDepan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/fooFragment"
+            class="gonorus.makancepatkurir.view.FragmentImageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_image_slider" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/drawable_default_button"
+            android:padding="@dimen/default_button_padding"
+            android:text="Order Sekarang"
+            android:textColor="@color/white" />
+
+        <fragment
+            android:id="@+id/fooFragment2"
+            class="gonorus.makancepatkurir.view.FragmentImageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_image_slider" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,850 @@
+[
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_intro_overlay.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\321d43dfe37314fb9929f3069d9cc6291b396446\\output\\res\\layout\\cast_intro_overlay.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_chooser_dialog.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8e6396ac2018420be8a56f9c2b3f5f898f9b5dfc\\output\\res\\layout\\mr_chooser_dialog.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\88f14a6388123f7372156413e67af78032e9d54f\\output\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_nav_drawer.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\my_nav_drawer.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_notification.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\fragment_notification.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_volume_control.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8e6396ac2018420be8a56f9c2b3f5f898f9b5dfc\\output\\res\\layout\\mr_volume_control.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transaction.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\activity_transaction.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login1.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\fragment_login1.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_nav_drawer.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\item_nav_drawer.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\88f14a6388123f7372156413e67af78032e9d54f\\output\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\app_bar.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pesanan_detail.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\item_pesanan_detail.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\footer_login_screen.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\footer_login_screen.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_home.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\nav_header_home.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_permission.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\activity_permission.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_controller_volume_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8e6396ac2018420be8a56f9c2b3f5f898f9b5dfc\\output\\res\\layout\\mr_controller_volume_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\footer_login_screen.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\footer_login_screen.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search_result.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\activity_search_result.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_controller_volume_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8e6396ac2018420be8a56f9c2b3f5f898f9b5dfc\\output\\res\\layout\\mr_controller_volume_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login3.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\fragment_login3.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_help_text.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\321d43dfe37314fb9929f3069d9cc6291b396446\\output\\res\\layout\\cast_help_text.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_profile.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_controller_material_dialog_b.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8e6396ac2018420be8a56f9c2b3f5f898f9b5dfc\\output\\res\\layout\\mr_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login2.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\fragment_login2.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_password.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_mini_controller.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\321d43dfe37314fb9929f3069d9cc6291b396446\\output\\res\\layout\\cast_mini_controller.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pesanan.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\item_pesanan.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_help_text.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\321d43dfe37314fb9929f3069d9cc6291b396446\\output\\res\\layout\\cast_help_text.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_halaman_depan.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\fragment_halaman_depan.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login1.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\fragment_login1.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pesanan_detail.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\item_pesanan_detail.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_login.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\header_login.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search_result.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\activity_search_result.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_controller_material_dialog_b.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8e6396ac2018420be8a56f9c2b3f5f898f9b5dfc\\output\\res\\layout\\mr_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_tracks_chooser_dialog_row_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\321d43dfe37314fb9929f3069d9cc6291b396446\\output\\res\\layout\\cast_tracks_chooser_dialog_row_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_transaction.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\content_transaction.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_user_item.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\detail_user_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login2.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\fragment_login2.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_edit_profil.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\content_edit_profil.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\indicator_image_view.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\indicator_image_view.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_courier_transaction.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\fragment_courier_transaction.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\header_login.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\header_login.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_notification.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\fragment_notification.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_transaksi_kurir.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\fragment_transaksi_kurir.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_row_transaction.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\item_row_transaction.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_tracks_chooser_dialog_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\321d43dfe37314fb9929f3069d9cc6291b396446\\output\\res\\layout\\cast_tracks_chooser_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_halaman_depan.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\fragment_halaman_depan.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_transaction.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\content_transaction.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pesanan.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\item_pesanan.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_child_nav_drawer.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\item_child_nav_drawer.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main_login.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\fragment_main_login.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_playback_control.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8e6396ac2018420be8a56f9c2b3f5f898f9b5dfc\\output\\res\\layout\\mr_playback_control.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detail_profile.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\activity_detail_profile.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_image_slider.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\fragment_image_slider.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_detail_pesanan.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\fragment_detail_pesanan.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_detail_pesanan.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\fragment_detail_pesanan.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_expanded_controller_activity.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\321d43dfe37314fb9929f3069d9cc6291b396446\\output\\res\\layout\\cast_expanded_controller_activity.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_verifikasi_email.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\activity_verifikasi_email.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_footer_drawer.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\nav_footer_drawer.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\app_bar.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\88f14a6388123f7372156413e67af78032e9d54f\\output\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_verifikasi_email.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\activity_verifikasi_email.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detail_profile.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\activity_detail_profile.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_chooser_list_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8e6396ac2018420be8a56f9c2b3f5f898f9b5dfc\\output\\res\\layout\\mr_chooser_list_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_expanded_controller_activity.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\321d43dfe37314fb9929f3069d9cc6291b396446\\output\\res\\layout\\cast_expanded_controller_activity.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transaction.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\activity_transaction.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registration.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login3.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\fragment_login3.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_home.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\nav_header_home.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_image_slider.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\fragment_image_slider.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_footer_drawer.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\nav_footer_drawer.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_nav_drawer.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\my_nav_drawer.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_courier_transaction.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\fragment_courier_transaction.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_volume_control.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8e6396ac2018420be8a56f9c2b3f5f898f9b5dfc\\output\\res\\layout\\mr_volume_control.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_chooser_list_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8e6396ac2018420be8a56f9c2b3f5f898f9b5dfc\\output\\res\\layout\\mr_chooser_list_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_permission.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\activity_permission.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registration.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_edit_profil.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\content_edit_profil.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_transaksi_kurir.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\fragment_transaksi_kurir.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_nav_drawer.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\item_nav_drawer.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_chooser_dialog.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8e6396ac2018420be8a56f9c2b3f5f898f9b5dfc\\output\\res\\layout\\mr_chooser_dialog.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_intro_overlay.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\321d43dfe37314fb9929f3069d9cc6291b396446\\output\\res\\layout\\cast_intro_overlay.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_tracks_chooser_dialog_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\321d43dfe37314fb9929f3069d9cc6291b396446\\output\\res\\layout\\cast_tracks_chooser_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main_login.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\fragment_main_login.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_password.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_playback_control.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8e6396ac2018420be8a56f9c2b3f5f898f9b5dfc\\output\\res\\layout\\mr_playback_control.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\88f14a6388123f7372156413e67af78032e9d54f\\output\\res\\layout\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\88f14a6388123f7372156413e67af78032e9d54f\\output\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_profile.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\88f14a6388123f7372156413e67af78032e9d54f\\output\\res\\layout\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\indicator_image_view.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\indicator_image_view.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_user_item.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\detail_user_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\88f14a6388123f7372156413e67af78032e9d54f\\output\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_tracks_chooser_dialog_row_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\321d43dfe37314fb9929f3069d9cc6291b396446\\output\\res\\layout\\cast_tracks_chooser_dialog_row_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_row_transaction.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\src\\main\\res\\layout\\item_row_transaction.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_child_nav_drawer.xml",
+        "source": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\src\\main\\res\\layout\\item_child_nav_drawer.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_mini_controller.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\321d43dfe37314fb9929f3069d9cc6291b396446\\output\\res\\layout\\cast_mini_controller.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\86ea4b14e9d1b70465193fd7b44399ce8793e8b5\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\19 04 2017\\MakanCepatKurir-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\88f14a6388123f7372156413e67af78032e9d54f\\output\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "D:\\User Folder\\Downloads\\Makan Cepat\\20 04 2017\\MakanCepatKurir\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\091a849928333305c06ec98108ac339693203c21\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    }
+]

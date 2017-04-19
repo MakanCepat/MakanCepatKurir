@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="adriyo.makancepat.view.DetailProfilActivity">
+
+    <item
+        android:id="@+id/menuEditProfile"
+        android:icon="@drawable/ic_mode_edit_white_24dp"
+        app:showAsAction="never"
+        android:title="Edit Profile">
+    </item>
+    <item
+        android:id="@+id/menuEditPassword"
+        android:icon="@android:drawable/ic_lock_idle_lock"
+        app:showAsAction="never"
+        android:title="Ubah Password">
+    </item>
+</menu>

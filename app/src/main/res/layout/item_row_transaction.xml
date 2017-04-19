@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/imgProses"
+        android:src="@drawable/logo_makancepat"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.2"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".60"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtNama"
+            android:text="Nama : Dwi Anggono Winarso Suparjo Putra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/txtAlamat"
+            android:text="Alamat : Jl. Adisucipto No.21 Salatiga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnMap"
+        android:text="B"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"/>
+</LinearLayout>
